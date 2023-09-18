@@ -1,0 +1,21 @@
+﻿<Window x:Class="Фракталы.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Фракталы"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas>
+            <Canvas Height="424" Width="528" Canvas.Left="272"/>
+        </Canvas>
+        <Button x:Name="tree" Content="Дерево" Background="{x:Null}" Width="88" Height="50" FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Left" VerticalAlignment="Top" Click="tree_Click"/>
+        <Button x:Name="curvekocha" Content="Кривая Коха" Width="88" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,58,0,0" FontWeight="Bold" FontStyle="Italic" Background="{x:Null}"/>
+        <Button x:Name="carpet" Content="Ковёр Серпинского" Width="120" Height="50" FontStyle="Italic" FontWeight="Bold" Margin="0,122,680,262" Background="{x:Null}"/>
+        <Button x:Name="triangle" Content="Треугольник Серпинского" Background="{x:Null}" Margin="0,187,642,199" FontWeight="Bold" FontStyle="Italic" BorderBrush="#FF707070"/>
+        <Button x:Name="kantor" Content="Множество Кантора" Background="{x:Null}" Height="50" Margin="0,254,663,130" FontWeight="Bold" FontStyle="Italic"/>
+
+
+    </Grid>
+</Window>
